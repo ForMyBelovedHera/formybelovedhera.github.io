@@ -49,7 +49,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                     hideClass: {
                         popup: 'animate__animated animate__fadeOut'
                     },
-                    html: '<br><input class="form-control" placeholder="Masukkan nama" id="input-field">',
+                    html: '<br><input class="form-control" placeholder="Masukkan nama panggilan sayangku ke kamu" id="input-field">',
                     content: {
                         element: "input",
                         attributes: {
