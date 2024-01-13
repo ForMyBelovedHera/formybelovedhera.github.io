@@ -42,7 +42,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                 }
             }).then(() => {
                 Swal.fire({
-                    title: 'Masukkin nama kamu dulu dong',
+                    title: 'Kamu paling seneng kalo aku panggil apa?',
                     showClass: {
                         popup: 'animate__animated animate__jackInTheBox'
                     },
@@ -53,7 +53,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                     content: {
                         element: "input",
                         attributes: {
-                            placeholder: "Masukkan nama",
+                            placeholder: "Isi Disinii",
                             type: "text",
                             id: "input-field",
                             className: "form-control"
