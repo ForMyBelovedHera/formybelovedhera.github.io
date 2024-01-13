@@ -43,6 +43,7 @@ $(document).on('click', '#tombolPopup', function (e) {
             }).then(() => {
                 Swal.fire({
                     title: 'Kamu paling seneng kalo aku panggil apa?',
+                            text: 'Kamu paling seneng aku panggil apa? , 
                     showClass: {
                         popup: 'animate__animated animate__jackInTheBox'
                     },
