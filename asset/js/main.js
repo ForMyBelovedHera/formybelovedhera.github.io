@@ -12,7 +12,7 @@ $(document).on('click', '#tombolPopup', function (e) {
     e.preventDefault();
     Swal.fire({
         icon: 'info',
-        title: 'Halo Pacarku',
+        title: 'Halo Hera Sayang',
         text: 'Aku ada pertanyaan nih buat kamu',
         showClass: {
             popup: 'animate__animated animate__tada'
@@ -22,7 +22,7 @@ $(document).on('click', '#tombolPopup', function (e) {
         }
     }).then(() => {
         Swal.fire({
-            title: 'Jawab yang jujur ya',
+            title: 'Jawab yang jujur ya cantikkk!',
             showClass: {
                 popup: 'animate__animated animate__jackInTheBox'
             },
@@ -40,35 +40,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                 hideClass: {
                     popup: 'animate__animated animate__fadeOut'
                 }
-            }).then(() => {
-                Swal.fire({
-                    title: 'Masukkin nama kamu dulu dong',
-                    showClass: {
-                        popup: 'animate__animated animate__jackInTheBox'
-                    },
-                    hideClass: {
-                        popup: 'animate__animated animate__fadeOut'
-                    },
-                    html: '<br><input class="form-control" placeholder="Masukkan nama" id="input-field">',
-                    content: {
-                        element: "input",
-                        attributes: {
-                            placeholder: "Masukkan nama",
-                            type: "text",
-                            id: "input-field",
-                            className: "form-control"
-                        },
-                    },
-                    buttons: {
-                        cancel: {
-                            visible: true,
-                            className: 'btn btn-danger'
-                        },
-                        confirm: {
-                            className: 'btn btn-success'
-                        }
-                    },
-                }).then(
+            }).then(
                     function () {
                         const nama = $('#input-field').val();
                         console.log(nama);
